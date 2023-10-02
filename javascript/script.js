@@ -242,7 +242,7 @@ function palavraNaTela(){
 }
 
 
-//verifica se a letra que o usuario escolheu faz parte da do segredo e desabilita teclas ja clicadas
+//verifica se a letra que o usuario escolheu faz parte do segredo e desabilita teclas ja clicadas
 function verificaLetraEscolhida(letra){
     document.getElementById("tecla_" + letra).disabled = true
     if(tentativas > 0){
