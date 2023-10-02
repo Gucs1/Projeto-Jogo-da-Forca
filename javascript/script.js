@@ -215,7 +215,6 @@ var palavras = [
 criarPalavraSecreta();
 function criarPalavraSecreta(){
     var aleatorio = parseInt(Math.random() * palavras.length);
-    
 
     palavraSorteada = palavras[aleatorio].nome;
     palavraCategoria = palavras[aleatorio].categoria;
