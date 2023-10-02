@@ -331,7 +331,7 @@ function caregaImagemForca(){
 
 //Função vitoria atribuido a Função comparaLista() - if(vitoria == true)
 function voceGanhou(){
-    window.alert('Parabéns, você ganhouuu!! a palavra secreta era' + palavraSorteada)
+    window.alert('Parabéns, você ganhouuu!! a palavra secreta era ' + palavraSorteada)
 }
 
 //Função derrota atribuido a Função comparaLista() - if(tetnativa == 0)
