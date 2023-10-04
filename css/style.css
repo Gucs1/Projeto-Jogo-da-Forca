@@ -1,5 +1,7 @@
 body{
-    background: black;
+    background-image: url(../imagens/QuadrodeEscola.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 80vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -87,7 +89,7 @@ body{
 }
 
 .btn-reload:hover{
-    background: purple;
+    background: black;
     color: #000;
     transform: scale(1.2);
     box-shadow: 0px 5px 50px #fff;
