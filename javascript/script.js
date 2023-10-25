@@ -255,8 +255,8 @@ function verificaLetraEscolhida(letra){
 
 //mudar o style de botões ja clicados
 function mudarStyleLetra(tecla){
-    document.getElementById(tecla).style.background = "#0f7000"
-    document.getElementById(tecla).style.color = "#ffffff"
+    document.getElementById(tecla).style.background = "#537cd0"
+    document.getElementById(tecla).style.color = "#fffafa"
 }
 
 
