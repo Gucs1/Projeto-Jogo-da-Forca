@@ -9,207 +9,54 @@ var tentativas = 6;
 //palavras que podem aparecer no jogo
 var palavras = [
     palavra01 = {
-        nome: "BRASIL",
-        categoria: "PAÍS"
+        nome: "BALEIA",
+        categoria: "MAMÍFERO"
     },
     palavra02 = {
-        nome: "ARGENTINA",
-        categoria: "PAÍS"
+        nome: "GOLFINHO",
+        categoria: "MAMÍFERO"
     },
     palavra03 = {
-        nome: "ALEMANHA",
-        categoria: "PAÍS"
+        nome: "FOCA",
+        categoria: "MAMÍFERO"
     },
     palavra04 = {
-        nome: "HOLANDA",
-        categoria: "PAÍS"
+        nome: "PEIXEBOI",
+        categoria: "MAMÍFERO"
     },
     palavra05 = {
-        nome: "SENEGAL",
-        categoria: "PAÍS"
+        nome: "TARTARUGA",
+        categoria: "RÉPTEIS"
     },
     palavra06 = {
-        nome: "PIZZA",
-        categoria: "COMIDA"
+        nome: "COBRAMARINHA",
+        categoria: "RÉPTEIS"
     },
     palavra07 = {
-        nome: "STROGONOFF",
-        categoria: "COMIDA"
+        nome: "CROCODILO",
+        categoria: "RÉPTEIS"
     },
     palavra08 = {
-        nome: "FEIJOADA",
-        categoria: "COMIDA"
+        nome: "SUCURI",
+        categoria: "RÉPTEIS"
     },
     palavra09 = {
-        nome: "CHURRASCO",
-        categoria: "COMIDA"
+        nome: "TUBARAOBALEIA",
+        categoria: "PEIXES"
     },
     palavra10 = {
-        nome: "SORVETE",
-        categoria: "COMIDA"
+        nome: "PEIXESERRA",
+        categoria: "PEIXES"
     },
     palavra11 = {
-        nome: "FIFA",
-        categoria: "JOGOS"
+        nome: "MERO",
+        categoria: "PEIXES"
     },
     palavra12 = {
-        nome: "LOL",
-        categoria: "JOGOS"
-    },
-    palavra13 = {
-        nome: "VALORANT",
-        categoria: "JOGOS"
-    },
-    palavra14 = {
-        nome: "CSGO",
-        categoria: "JOGOS"
-    },
-    palavra15 = {
-        nome: "FORTNITE",
-        categoria: "JOGOS"
-    },
-    palavra16 = {
-        nome: "FUTEBOL",
-        categoria: "ESPORTES"
-    },
-    palavra17 = {
-        nome: "VOLEI",
-        categoria: "ESPORTES"
-    },
-    palavra18 = {
-        nome: "BASQUETE",
-        categoria: "ESPORTES"
-    },
-    palavra19 = {
-        nome: "TENIS",
-        categoria: "ESPORTES"
-    },
-    palavra20 = {
-        nome: "BEISEBOL",
-        categoria: "ESPORTES"
-    },
-    palavra21 = {
-        nome: "NARUTO",
-        categoria: "DESENHOS E ANIMES"
-    },
-    palavra22 = {
-        nome: "DRAGONBALL",
-        categoria: "DESENHOS E ANIMES"
-    },
-    palavra23 = {
-        nome: "POKEMON",
-        categoria: "DESENHOS E ANIMES"
-    },
-    palavra24 = {
-        nome: "DIGIMON",
-        categoria: "DESENHOS E ANIMES"
-    },
-    palavra25 = {
-        nome: "SIMPSONS",
-        categoria: "DESENHOS E ANIMES"
-    },
-    palavra26 = {
-        nome: "CAMARO",
-        categoria: "CARROS"
-    },
-    palavra27 = {
-        nome: "FERRARI",
-        categoria: "CARROS"
-    },
-    palavra28 = {
-        nome: "CELTA",
-        categoria: "CARROS"
-    },
-    palavra29 = {
-        nome: "UNO",
-        categoria: "CARROS"
-    },
-    palavra30 = {
-        nome: "PORSCHE",
-        categoria: "CARROS"
-    },
-    palavra31 = {
-        nome: "PE",
-        categoria: "PARTES DO CORPO"
-    },
-    palavra32 = {
-        nome: "MAO",
-        categoria: "PARTES DO CORPO"
-    },
-    palavra33 = {
-        nome: "CABECA",
-        categoria: "PARTES DO CORPO"
-    },
-    palavra34 = {
-        nome: "PERNA",
-        categoria: "PARTES DO CORPO"
-    },
-    palavra35 = {
-        nome: "BRACO",
-        categoria: "PARTES DO CORPO"
-    },
-    palavra36 = {
-        nome: "MESSI",
-        categoria: "JOGADORES DE FUTEBOL"
-    },
-    palavra37 = {
-        nome: "NEYMAR",
-        categoria: "JOGADORES DE FUTEBOL"
-    },
-    palavra38 = {
-        nome: "PELE",
-        categoria: "JOGADORES DE FUTEBOL"
-    },
-    palavra39 = {
-        nome: "RONALDO",
-        categoria: "JOGADORES DE FUTEBOL"
-    },
-    palavra40 = {
-        nome: "SALAH",
-        categoria: "JOGADORES DE FUTEBOL"
-    },
-    palavra41 = {
-        nome: "SAMSUNG",
-        categoria: "MARCAS FAMOSAS"
-    },
-    palavra42 = {
-        nome: "APPLE",
-        categoria: "MARCAS FAMOSAS"
-    },
-    palavra43 = {
-        nome: "NIKE",
-        categoria: "MARCAS FAMOSAS"
-    },
-    palavra44 = {
-        nome: "ADIDAS",
-        categoria: "MARCAS FAMOSAS"
-    },
-    palavra45 = {
-        nome: "LACOSTE",
-        categoria: "MARCAS FAMOSAS"
-    },
-    palavra46 = {
-        nome: "BATMAN",
-        categoria: "HERÓIS"
-    },
-    palavra47 = {
-        nome: "FLASH",
-        categoria: "HERÓIS"
-    },
-    palavra48 = {
-        nome: "THOR",
-        categoria: "HERÓIS"
-    },
-    palavra49 = {
-        nome: "HULK",
-        categoria: "HERÓIS"
-    },
-    palavra50 = {
-        nome: "AQUAMAN",
-        categoria: "HERÓIS"
+        nome: "RAIAVIOLA",
+        categoria: "PEIXES"
     },
 ]
-
 
 //pegar tanto o nome quanto a categoria da palavra aleatoria
 criarPalavraSecreta();
